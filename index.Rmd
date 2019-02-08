@@ -15,7 +15,7 @@ This report focuses on evictions on SF. The data set contained `r num_evictions`
 Table of top 10 zip codes with highest evictions
 
 ```{r}
-kable(by_zip, col.names = c("Zip Code", "Number of Evictions"))
+kable(by_zip, col.names = c("Zip Code", "Number of Evictions")) 
 ```
 
 ## Time series analysis
